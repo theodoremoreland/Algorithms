@@ -17,7 +17,6 @@
 -- Note: All emails are in lowercase.
 
 # Write your MySQL query statement below
-SELECT Email from ( SELECT Email, COUNT(Email)
-FROM Person
-GROUP BY Email
-HAVING COUNT(Email) > 1) as a;
+SELECT Email
+FROM ( SELECT Email, COUNT(Email) FROM Person GROUP BY Email HAVING COUNT(Email) > 1 ) as a
+;
