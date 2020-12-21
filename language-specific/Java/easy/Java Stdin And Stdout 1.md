@@ -20,8 +20,10 @@ Hi 5
 </pre>
 
 Our code will print:  
+<pre>
 myString is: Hi
 myInt is: 5
+</pre>
 Alternatively, you can use the BufferedReader class.
 
 Task
