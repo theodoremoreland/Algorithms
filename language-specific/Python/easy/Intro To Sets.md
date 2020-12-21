@@ -1,3 +1,4 @@
+<pre><code>
 def average(array):
     array = set(array)
     return sum(array) / len(array)
@@ -8,3 +9,4 @@ if __name__ == '__main__':
     arr = list(map(int, input().split()))
     result = average(arr)
     print(result)
+</code></pre>

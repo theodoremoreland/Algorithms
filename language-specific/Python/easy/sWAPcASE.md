@@ -1,3 +1,4 @@
+<pre><code>
 def swap_case(s):
     swapped = ""
     for letter in s:
@@ -7,3 +8,4 @@ def swap_case(s):
             letter = letter.upper()
         swapped += letter
     return swapped
+</code></pre>

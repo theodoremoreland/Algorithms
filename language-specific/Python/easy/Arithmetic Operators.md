@@ -1,26 +1,30 @@
-# Task
-# Read two integers from STDIN and print three lines where:
-# The first line contains the sum of the two numbers.
-# The second line contains the difference of the two numbers (first - second).
-# The third line contains the product of the two numbers.
+<pre>
+Task
+Read two integers from STDIN and print three lines where:
+The first line contains the sum of the two numbers.
+The second line contains the difference of the two numbers (first - second).
+The third line contains the product of the two numbers.
 
-# Input Format
-# The first line contains the first integer, . The second line contains the second integer, .
+Input Format
+The first line contains the first integer, . The second line contains the second integer, .
 
-# Output Format
-# Print the three lines as explained above.
+Output Format
+Print the three lines as explained above.
 
-# Sample Input 0
-# 3
-# 2
+Sample Input 0
+3
+2
 
-# Sample Output 0
-# 5
-# 1
-# 6
+Sample Output 0
+5
+1
+6
+</pre>
 
+<pre><code>
 if __name__ == '__main__':
     a = int(input())
     b = int(input())
 
     print(f"{a + b}\n{a - b}\n{a * b}")
+</code></pre>

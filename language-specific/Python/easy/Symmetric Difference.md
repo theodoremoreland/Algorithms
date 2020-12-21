@@ -1,4 +1,4 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+<pre><code>
 aSize = input()
 aList = list(map(int, input().split()))
 bSize = input()
@@ -10,3 +10,4 @@ onlyInB = b.difference(a)  # Values which exist in b but not in a
 onlyInOneOrTheOther = list(onlyInA.union(onlyInB))
 onlyInOneOrTheOther.sort()
 [print(num) for num in onlyInOneOrTheOther]
+</code></pre>

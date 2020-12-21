@@ -1,3 +1,4 @@
+<pre><code>
 if __name__ == '__main__':
     s = input()
     checks = [".isalnum()", ".isalpha()", ".isdigit()",
@@ -9,3 +10,4 @@ if __name__ == '__main__':
                 statement = "True"
                 break
         print(statement)
+</code></pre>

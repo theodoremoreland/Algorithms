@@ -1,3 +1,4 @@
+<pre><code>
 import sys
 n = int(input())
 s = set(map(int, input().split()))
@@ -17,3 +18,4 @@ for line in data[1:]:
     else:
         continue
 print(sum(s))
+</code></pre>

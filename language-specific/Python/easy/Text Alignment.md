@@ -1,46 +1,49 @@
-# Task
-# You are given a partial code that is used for generating the HackerRank Logo of variable thickness.
-# Your task is to replace the blank (______) with rjust, ljust or center.
+<pre>
+Task
+You are given a partial code that is used for generating the HackerRank Logo of variable thickness.
+Your task is to replace the blank (______) with rjust, ljust or center.
 
-# Input Format
-# A single line containing the thickness value for the logo.
+Input Format
+A single line containing the thickness value for the logo.
 
-# Output Format
-# Output the desired logo.
+Output Format
+Output the desired logo.
 
-# Sample Input
-# 5
+Sample Input
+5
 
-# Sample Output
+Sample Output
 
-#     H
-#    HHH
-#   HHHHH
-#  HHHHHHH
-# HHHHHHHHH
-#   HHHHH               HHHHH
-#   HHHHH               HHHHH
-#   HHHHH               HHHHH
-#   HHHHH               HHHHH
-#   HHHHH               HHHHH
-#   HHHHH               HHHHH
-#   HHHHHHHHHHHHHHHHHHHHHHHHH
-#   HHHHHHHHHHHHHHHHHHHHHHHHH
-#   HHHHHHHHHHHHHHHHHHHHHHHHH
-#   HHHHH               HHHHH
-#   HHHHH               HHHHH
-#   HHHHH               HHHHH
-#   HHHHH               HHHHH
-#   HHHHH               HHHHH
-#   HHHHH               HHHHH
-#                     HHHHHHHHH
-#                      HHHHHHH
-#                       HHHHH
-#                        HHH
-#                         H
+    H
+   HHH
+  HHHHH
+ HHHHHHH
+HHHHHHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHHHHHHHHHHHHHHHHHHHHHH
+  HHHHHHHHHHHHHHHHHHHHHHHHH
+  HHHHHHHHHHHHHHHHHHHHHHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+                    HHHHHHHHH
+                     HHHHHHH
+                      HHHHH
+                       HHH
+                        H
 
-# Replace all ______ with rjust, ljust or center.
+Replace all ______ with rjust, ljust or center.
+</pre>
 
+<pre><code>
 thickness = int(raw_input())  # This must be an odd number
 c = 'H'
 
@@ -64,3 +67,4 @@ for i in range(thickness+1):
 for i in range(thickness):
     print((c*(thickness-i-1)).______(thickness)+c +
           (c*(thickness-i-1)).______(thickness)).______(thickness*6)
+</code></pre>
