@@ -1,5 +1,4 @@
-<?php
-
+<pre><code>
 $Regex_Pattern = '/^(\2tic|(tac))+$/'; //Do not delete '/'. Replace __________ with your regex.
 
 // ^ The 2 references the innermost group, but fails on first evalutaion because
@@ -15,4 +14,4 @@ if(preg_match($Regex_Pattern, $Test_String, $output_array)){
 }
 
 fclose($handle);
-?>
+</code></pre>

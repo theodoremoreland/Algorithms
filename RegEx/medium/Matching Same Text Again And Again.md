@@ -1,3 +1,4 @@
+<pre><code>
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -10,12 +11,12 @@ public class Solution {
 
         Regex_Test tester = new Regex_Test();
         tester.checker(
-                "([a-z])([\\w])([\\s])([^\\w])([\\d])([^\\d])([A-Z])([a-zA-Z])([AEIOUaeiou])([^\\s])\\1\\2\\3\\4\\5\\6\\7\\8\\9\\10"); // Use
-                                                                                                                                       // \\
-                                                                                                                                       // instead
-                                                                                                                                       // of
-                                                                                                                                       // using
-                                                                                                                                       // \
+"([a-z])([\\w])([\\s])([^\\w])([\\d])([^\\d])([A-Z])([a-zA-Z])([AEIOUaeiou])([^\\s])\\1\\2\\3\\4\\5\\6\\7\\8\\9\\10"); // Use
+                                                                                                                        // \\
+                                                                                                                        // instead
+                                                                                                                        // of
+                                                                                                                        // using
+                                                                                                                        // \
 
     }
 }
@@ -32,3 +33,4 @@ class Regex_Test {
     }
 
 }
+</code></pre>

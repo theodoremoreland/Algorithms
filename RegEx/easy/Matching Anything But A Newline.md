@@ -1,3 +1,4 @@
+<pre><code>
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -28,3 +29,4 @@ class Tester {
     }
 
 }
+</code></pre>

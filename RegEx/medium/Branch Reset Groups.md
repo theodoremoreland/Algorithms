@@ -1,5 +1,4 @@
-<?php
-
+<pre><code>
 $Regex_Pattern = '/^\d\d(?|(---)|(-)|(.)|(:))\d\d\1\d\d\1\d\d$/'; //Do not delete '/'. Replace __________ with your regex.
 
 $handle = fopen ("php://stdin","r");
@@ -11,4 +10,4 @@ if(preg_match($Regex_Pattern, $Test_String, $output_array)){
 }
 
 fclose($handle);
-?>
+</code></pre>
