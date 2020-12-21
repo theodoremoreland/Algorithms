@@ -1,15 +1,19 @@
-// Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
 
-// Example 1:
+Example 1:
+<pre>
+Input: "babad"
+Output: "bab"
+</pre>
+Note: "aba" is also a valid answer.
 
-// Input: "babad"
-// Output: "bab"
-// Note: "aba" is also a valid answer.
-// Example 2:
+Example 2:
+<pre>
+Input: "cbbd"
+Output: "bb"
+</pre>
 
-// Input: "cbbd"
-// Output: "bb"
-
+<pre><code>
 /**
  * @param {string} s
  * @return {string}
@@ -38,3 +42,4 @@ var longestPalindrome = function (s) {
 
     return lp;
 };
+</code></pre>

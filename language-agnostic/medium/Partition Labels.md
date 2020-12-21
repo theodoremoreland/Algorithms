@@ -1,18 +1,20 @@
-// A string S of lowercase letters is given. We want to partition this string into as many parts as possible so that each letter appears in at most one part, and return a list of integers representing the size of these parts.
+A string S of lowercase letters is given. We want to partition this string into as many parts as possible so that each letter appears in at most one part, and return a list of integers representing the size of these parts.
 
-// Example 1:
-// Input: S = "ababcbacadefegdehijhklij"
-// Output: [9,7,8]
-// Explanation:
-// The partition is "ababcbaca", "defegde", "hijhklij".
-// This is a partition so that each letter appears in at most one part.
-// A partition like "ababcbacadefegde", "hijhklij" is incorrect, because it splits S into less parts.
-// Note:
+Example 1:
+<pre>
+Input: S = "ababcbacadefegdehijhklij"
+Output: [9,7,8]
+</pre>
+### Explanation:  
+The partition is "ababcbaca", "defegde", "hijhklij".
+This is a partition so that each letter appears in at most one part.
+A partition like "ababcbacadefegde", "hijhklij" is incorrect, because it splits S into less parts.
 
-// S will have length in range [1, 500].
-// S will consist of lowercase letters ('a' to 'z') only.
+Note:  
+S will have length in range [1, 500].
+S will consist of lowercase letters ('a' to 'z') only.
 
-
+<pre><code>
 /**
  * @param {string} S
  * @return {number[]}
@@ -80,3 +82,4 @@ var partitionLabels = function (S) {
     return partitions;
 
 };
+</code></pre>

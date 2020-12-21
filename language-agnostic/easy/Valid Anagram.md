@@ -1,14 +1,18 @@
-// Given two strings s and t , write a function to determine if t is an anagram of s.
+Given two strings s and t , write a function to determine if t is an anagram of s.
 
-// Example 1:
+Example 1:
+<pre>
+Input: s = "anagram", t = "nagaram"
+Output: true
+</pre>
 
-// Input: s = "anagram", t = "nagaram"
-// Output: true
-// Example 2:
+Example 2:
+<pre>
+Input: s = "rat", t = "car"
+Output: false
+</pre>
 
-// Input: s = "rat", t = "car"
-// Output: false
-
+<pre><code>
 /**
  * @param {string} s
  * @param {string} t
@@ -34,3 +38,4 @@ var isAnagram = function(s, t) {
     }
     return true;
 };
+</code></pre>
