@@ -1,15 +1,17 @@
-// Task
-// Complete the code in your editor by writing an overridden getNumberOfTeamMembers method that prints the same statement as the superclass' getNumberOfTeamMembers method, except that it replaces n with 11 (the number of players on a Soccer team).
+# Task
+Complete the code in your editor by writing an overridden getNumberOfTeamMembers method that prints the same statement as the superclass' getNumberOfTeamMembers method, except that it replaces n with 11 (the number of players on a Soccer team).
 
-// Output Format
+Output Format:  
+When executed, your completed code should print the following:
 
-// When executed, your completed code should print the following:
+<pre>
+Generic Sports
+Each team has n players in Generic Sports
+Soccer Class
+Each team has 11 players in Soccer Class
+</pre>
 
-// Generic Sports
-// Each team has n players in Generic Sports
-// Soccer Class
-// Each team has 11 players in Soccer Class
-
+<pre><code>
 import java.util.*;
 
 class Sports {
@@ -29,7 +31,6 @@ class Soccer extends Sports {
         return "Soccer Class";
     }
 
-    // Write your overridden getNumberOfTeamMembers method here
     @Override
     void getNumberOfTeamMembers() {
         System.out.println("Each team has 11 players in " + getName());
@@ -48,3 +49,4 @@ public class Solution {
         c2.getNumberOfTeamMembers();
     }
 }
+</code></pre>

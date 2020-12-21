@@ -1,3 +1,4 @@
+<pre><code>
 import java.util.*;
 
 public class Solution {
@@ -17,3 +18,4 @@ public class Solution {
         }
     }
 }
+</code></pre>

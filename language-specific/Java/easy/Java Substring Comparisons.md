@@ -1,20 +1,25 @@
-// Given a string, s, and an integer, k , complete the function so that it finds the lexicographically smallest and largest substrings of length k.
+Given a string, s, and an integer, k , complete the function so that it finds the lexicographically smallest and largest substrings of length k.
 
-// Input Format
-// The first line contains a string denoting .
-// The second line contains an integer denoting .
+Input Format:  
+The first line contains a string denoting .
+The second line contains an integer denoting .
 
-// Output Format
-// Return the respective lexicographically smallest and largest substrings as a single newline-separated string.
+Output Format:  
+Return the respective lexicographically smallest and largest substrings as a single newline-separated string.
 
-// Sample Input 0
-// welcometojava
-// 3
+Sample Input 0
+<pre>
+welcometojava
+3
+</pre>
 
-// Sample Output 0
-// ava
-// wel
+Sample Output 0
+<pre>
+ava
+wel
+</pre>
 
+<pre><code>
 import java.util.Scanner;
 
 class Solution {
@@ -38,3 +43,4 @@ class Solution {
         return smallest + "\n" + largest;
     }
 }
+</code></pre>

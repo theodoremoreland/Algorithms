@@ -1,35 +1,48 @@
-// Two strings, a and b, are called anagrams if they contain all the same characters in the same frequencies. For example, the anagrams of CAT are CAT, ACT, TAC, TCA, ATC, and CTA.
+Two strings, a and b, are called anagrams if they contain all the same characters in the same frequencies. For example, the anagrams of CAT are CAT, ACT, TAC, TCA, ATC, and CTA.
 
-// Complete the function in the editor. If a and b are case-insensitive anagrams, print "Anagrams"; otherwise, print "Not Anagrams" instead.
+Complete the function in the editor. If a and b are case-insensitive anagrams, print "Anagrams"; otherwise, print "Not Anagrams" instead.
 
-// Input Format
-// The first line contains a string denoting a.
-// The second line contains a string denoting b.
+Input Format:  
+The first line contains a string denoting a.
+The second line contains a string denoting b.
 
-// Output Format
-// Print "Anagrams" if q and b are case-insensitive anagrams of each other; otherwise, print "Not Anagrams" instead.
+Output Format:  
+Print "Anagrams" if q and b are case-insensitive anagrams of each other; otherwise, print "Not Anagrams" instead.
 
-// Sample Input 0
-// anagram
-// margana
+Sample Input 0:
+<pre>
+anagram
+margana
+</pre>
 
-// Sample Output 0
-// Anagrams
+Sample Output 0:
+<pre>
+Anagrams
+</pre>
 
-// Sample Input 1
-// anagramm
-// marganaa
+Sample Input 1:
+<pre>
+anagramm
+marganaa
+</pre>
 
-// Sample Output 1
-// Not Anagrams
+Sample Output 1:
+<pre>
+Not Anagrams
+</pre>
 
-// Sample Input 2
-// Hello
-// hello
+Sample Input 2:  
+<pre>
+Hello
+hello
+</pre>
 
-// Sample Output 2
-// Anagrams
+Sample Output 2:  
+<pre>
+Anagrams
+</pre>
 
+<pre><code>
 import java.util.Scanner;
 
 public class Solution {
@@ -64,3 +77,4 @@ public class Solution {
         return true;
 
     }
+</code></pre>

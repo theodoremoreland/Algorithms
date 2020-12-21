@@ -1,27 +1,32 @@
-// You are given n pairs of strings. Two pairs (a,b) and (c,d) are identical if a=c and b=c. That also implies (a,b) is not same as (b,a). After taking each pair as input, you need to print number of unique pairs you currently have.
-// Complete the code in the editor to solve this problem.
+You are given n pairs of strings. Two pairs (a,b) and (c,d) are identical if a=c and b=c. That also implies (a,b) is not same as (b,a). After taking each pair as input, you need to print number of unique pairs you currently have.
+Complete the code in the editor to solve this problem.
 
-// Input Format
-// In the first line, there will be an integer T denoting number of pairs. Each of the next T lines will contain two strings seperated by a single space.
+Input Format:  
+In the first line, there will be an integer T denoting number of pairs. Each of the next T lines will contain two strings seperated by a single space.
 
-// Output Format
-// Print  lines. In the  line, print number of unique pairs you have after taking  pair as input.
+Output Format:  
+Print  lines. In the  line, print number of unique pairs you have after taking  pair as input.
 
-// Sample Input
-// 5
-// john tom
-// john mary
-// john tom
-// mary anna
-// mary anna
+Sample Input
+<pre>
+5
+john tom
+john mary
+john tom
+mary anna
+mary anna
+</pre>
 
-// Sample Output
-// 1
-// 2
-// 2
-// 3
-// 3
+Sample Output
+<pre>
+1
+2
+2
+3
+3
+</pre>
 
+<pre><code>
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -51,3 +56,4 @@ public class Solution {
 
     }
 }
+</code></pre>
