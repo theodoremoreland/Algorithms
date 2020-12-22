@@ -19,8 +19,15 @@ A collection of personal solutions to coding challenges from various platforms i
     |     ...
     | language-specific
     |  ┗ Java
-    |     easy
-    |     medium
+    |     ┗ easy
+    |       +-- Java Method Overriding.md
+    |       +-- Java Static Initializer Block.md
+    |       +-- Java Hashset.md
+    |       ...
+    |     ┗ medium
+    |       +-- Java Generics.md
+    |       +-- Java Date And Time.md
+    |       +-- Java Currency Formatter.md
     |  ┗ Python
     |     ┗ easy
     |     ┗ medium
@@ -36,7 +43,7 @@ A collection of personal solutions to coding challenges from various platforms i
     |       +-- Backreferences To Failed Groups.md
     |       +-- Branch Reset Groups.md
     |       ...
-    |   ┗ hard
+    |    ┗ hard
     |       +-- Programming Language Detection.md
     |       ...
     |  ┗ SQL
