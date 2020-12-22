@@ -1,7 +1,7 @@
 # Algorithms (Deprecated)
 A collection of personal solutions to coding challenges from various platforms including LeetCode, HackerRank, and CodeSignal.
 
-# File layout
+# Folders and files
 
     | language-agnostic
     |  ┗ easy
@@ -30,8 +30,17 @@ A collection of personal solutions to coding challenges from various platforms i
     |       +-- Java Currency Formatter.md
     |  ┗ Python
     |     ┗ easy
+    |           +-- List Comprehensions.md
+    |           +-- Intro To Sets.md
+    |           +-- Mutations.md
+    |           ...
     |     ┗ medium
+    |           +-- Print Function.md
+    |           +-- Python Evaluation.md
+    |           ...
     |     ┗ hard
+    |           +-- Minion Game.md
+    |           ...
     |  ┗ RegEx
     |    ┗ easy
     |      +-- Alien Username.md
