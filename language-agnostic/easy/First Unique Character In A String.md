@@ -1,3 +1,4 @@
+<pre><code>
 /**
  * @param {string} s
  * @return {number}
@@ -15,3 +16,4 @@ var firstUniqChar = function(s) {
     }
     return -1;
 };
+</code></pre>

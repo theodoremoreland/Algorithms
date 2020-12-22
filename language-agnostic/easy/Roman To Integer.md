@@ -1,3 +1,4 @@
+<pre><code>
 /**
  * @param {string} s
  * @return {number}
@@ -38,3 +39,4 @@ var romanToInt = function(s) {
     
     return num;
 };
+</code></pre>

@@ -1,3 +1,4 @@
+<pre><code>
 /**
  * @param {number} x
  * @return {number}
@@ -9,3 +10,4 @@ var reverse = function(x) {
     if (x > 0x7FFFFFFF || x < -0x7FFFFFFF) {x = 0}
     return x;
 };
+</code></pre>

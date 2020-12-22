@@ -1,3 +1,4 @@
+<pre><code>
 /**
  * @param {number[]} nums
  * @return {number}
@@ -14,3 +15,4 @@ var maxSubArray = function(nums) {
     }
     return max;
 };
+</code></pre>

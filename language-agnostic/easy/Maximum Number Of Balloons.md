@@ -1,22 +1,29 @@
-// Given a string text, you want to use the characters of text to form as many instances of the word "balloon" as possible.
-// You can use each character in text at most once. Return the maximum number of instances that can be formed.
+Given a string text, you want to use the characters of text to form as many instances of the word "balloon" as possible.
+You can use each character in text at most once. Return the maximum number of instances that can be formed.
 
-// Example 1:
-// Input: text = "nlaebolko"
-// Output: 1
+Example 1:
+<pre>
+Input: text = "nlaebolko"
+Output: 1
+</pre>
 
-// Example 2:
-// Input: text = "loonbalxballpoon"
-// Output: 2
+Example 2:
+<pre>
+Input: text = "loonbalxballpoon"
+Output: 2
+</pre>
 
-// Example 3:
-// Input: text = "leetcode"
-// Output: 0
+Example 3:
+<pre>
+Input: text = "leetcode"
+Output: 0
+</pre>
  
-// Constraints:
-// 1 <= text.length <= 10^4
-// text consists of lower case English letters only.
+Constraints:  
+1 <= text.length <= 10^4
+text consists of lower case English letters only.
 
+<pre><code>
 /**
  * @param {string} text
  * @return {number}
@@ -36,3 +43,4 @@ var maxNumberOfBalloons = function(text) {
                                
     return count;
 };
+</code></pre>

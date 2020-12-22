@@ -1,3 +1,4 @@
+<pre><code>
 /**
  * @param {number} x
  * @return {boolean}
@@ -40,3 +41,4 @@ let isPalindrome = function(x) {
     else if (rev === x || digits[0] === att[0]) {return true;}
     else {return false;}
 };
+</code></pre>

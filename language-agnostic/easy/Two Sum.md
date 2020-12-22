@@ -1,3 +1,4 @@
+<pre><code>
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -11,3 +12,4 @@ var twoSum = function(nums, target) {
         }
     }
 };
+</code></pre>

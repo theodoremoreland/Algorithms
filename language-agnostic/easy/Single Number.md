@@ -1,3 +1,4 @@
+<pre><code>
 /**
  * @param {number[]} nums
  * @return {number}
@@ -10,3 +11,4 @@ var singleNumber = function(nums) {
         nums[i] = num;
     }
 };
+</code></pre>

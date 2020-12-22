@@ -1,13 +1,16 @@
-// Given a List of words, return the words that can be typed using letters of alphabet on only one row's of American QWERTY keyboard
+Given a List of words, return the words that can be typed using letters of alphabet on only one row's of American QWERTY keyboard
 
-// Example:
-// Input: ["Hello", "Alaska", "Dad", "Peace"]
-// Output: ["Alaska", "Dad"]
+Example: 
+<pre> 
+Input: ["Hello", "Alaska", "Dad", "Peace"]
+Output: ["Alaska", "Dad"]
+</pre>
 
-// Note:
-// You may use one character in the keyboard more than once.
-// You may assume the input string will only contain letters of alphabet.
+Note:  
+You may use one character in the keyboard more than once.
+You may assume the input string will only contain letters of alphabet.
 
+<pre><code>
 /**
  * @param {string[]} words
  * @return {string[]}
@@ -31,3 +34,4 @@ var findWords = function(words) {
     }
     return arr;
 };
+</code></pre>

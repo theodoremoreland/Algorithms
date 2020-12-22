@@ -1,3 +1,4 @@
+<pre><code>
 /**
  * @param {string[]} strs
  * @return {string}
@@ -24,3 +25,4 @@ var longestCommonPrefix = function(strs) {
     }
     return str;
 };
+</code></pre>
